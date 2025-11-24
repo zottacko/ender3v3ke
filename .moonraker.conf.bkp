@@ -72,16 +72,6 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
-[update_manager mobileraker]
-type = git_repo
-path = /usr/data/mobileraker_companion
-origin = https://github.com/Clon1998/mobileraker_companion.git
-virtualenv = /usr/data/mobileraker-env
-primary_branch = main
-requirements = scripts/mobileraker-requirements.txt
-install_script = scripts/install.sh
-managed_services = mobileraker
-
 [update_manager ]
 type = git_repo
 path = /usr/data/moonraker-obico/scripts/..
@@ -90,6 +80,4 @@ env = /usr/data/moonraker-obico/scripts/../../moonraker-obico-env/bin/python
 requirements = requirements.txt
 install_script = install.sh
 managed_services = 
-
-[simplyprint]
 
